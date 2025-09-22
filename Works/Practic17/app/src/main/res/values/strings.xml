@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practic17</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_what_your_name">text_what_your_name</string>
+    <string name="kitty">kitty</string>
+</resources>
