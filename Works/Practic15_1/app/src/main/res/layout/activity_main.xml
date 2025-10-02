@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/container">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите e-mail"
+            app:startIconDrawable="@drawable/person"
+            app:startIconContentDescription="Email"
+            style="@style/margined">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/margined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            app:startIconDrawable="@drawable/key"
+            app:startIconContentDescription="Password">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword">
+
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            style="@style/margined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти"
+            android:background="@drawable/rounded_button"
+            app:backgroundTint="#ED3A3A">
+        </Button>
+        <Button
+            style="@style/margined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти через fantlab.ru"
+            android:background="@drawable/rounded_button"
+            app:backgroundTint="#2F80ED">
+        </Button>
+        <TextView
+            style="@style/margined"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:clickable="true"
+            android:text="Зарегистрироваться"
+            android:textAlignment="center"
+            android:textColor="#ED3A3A"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:clickable="true"
+            android:text="Вспомнить пароль"
+            android:textAlignment="center"
+            android:textColor="#ED3A3A"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                style="@style/margined"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/max"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="a"
+                android:scaleType="fitXY"/>
+            <ImageButton
+                style="@style/margined"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/facebook"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="a"
+                android:scaleType="fitXY"/>
+            <ImageButton
+                style="@style/margined"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ok"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="a"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Авторизоваться через соцсеть"
+            android:textAlignment="center"
+            android:textColor="#A7A7A7"            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
