@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practic23</string>
+    <string name="college">Колледж</string>
+    <string name="group">Группы</string>
+    <string name="teacher">Преподаватели</string>
+    <string name="clas">Кабинеты</string>
+</resources>
