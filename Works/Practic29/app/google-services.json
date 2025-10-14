@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "589203131899",
+    "firebase_url": "https://practic29-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "practic29",
+    "storage_bucket": "practic29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589203131899:android:e29d45cee38d8934484f5e",
+        "android_client_info": {
+          "package_name": "com.example.practic29"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcQKQIpw8hMiHbe_wiH_rF9fqv7eVD7K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
