@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/text"/>
+           <EditText
+               android:layout_width="350dp"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:id="@+id/address"
+               android:inputType="textPersonName"/>
+           <Button
+               android:layout_width="50dp"
+               android:layout_height="45dp"
+               android:id="@+id/search"
+               android:layout_marginLeft="350dp"/>
+
+
+
+           <WebView
+               android:id="@+id/webView"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               tools:layout_editor_absoluteX="8dp"
+               tools:layout_editor_absoluteY="8dp"/>
+       </LinearLayout>
+
+</RelativeLayout>
