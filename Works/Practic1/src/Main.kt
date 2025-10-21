@@ -1,4 +1,6 @@
+import kotlin.math.max
 import kotlin.math.min
+import kotlin.math.sqrt
 
 fun main() {
     task1()
@@ -40,11 +42,49 @@ fun task4(){
 }
 
 fun task5(){
-
+    val a = getString("Первое число: ").toDouble()
+    val b = getString("Второе число: ").toDouble()
+    val c = getString("Третье число: ").toDouble()
+    val d = b * b - 4 * a * c
+    if(d > 0)
+        println("2 корня")
+    if(d == 0.0)
+        println("1 корень")
+    if(d < 0)
+        println("Нет корней")
 }
 
 fun task6(){
+    val a = getString("a: ").toDouble()
+    val b = getString("b: ").toDouble()
+    val c = getString("c: ").toDouble()
 
+    if (a == 0.0) {
+        if (b == 0.0) {
+            println("Нет решений")
+        } else if (-c / b < 0) {
+            println("Нет решений")
+        } else {
+            val x = -sqrt(-c / b)
+            println("Минимальный корень: $x")
+        }
+    } else {
+        val d = b * b - 4 * a * c
+        if (d < 0) {
+            println("Нет решений")
+        } else {
+            val y1 = (-b + sqrt(d)) / (2 * a)
+            val y2 = (-b - sqrt(d)) / (2 * a)
+            val y3 = max(y1, y2)
+
+            if (y3 < 0) {
+                println("Нет решений")
+            } else {
+                val x = -sqrt(y3)
+                println("Минимальный корень: $x")
+            }
+        }
+    }
 }
 
 fun getString(message: String) : String{

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589203131899",
+    "firebase_url": "https://practic29-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "practic29",
+    "storage_bucket": "practic29.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589203131899:android:e29d45cee38d8934484f5e",
+        "android_client_info": {
+          "package_name": "com.example.practic29"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589203131899-h08e875chodu9fkmmsdqm31cpcd7oott.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.practic29",
+            "certificate_hash": "0b20b709027979e5e70b140286dfc4d551954a14"
+          }
+        },
+        {
+          "client_id": "589203131899-09kfclg145e9c79lkc73s6t0dso9qnhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcQKQIpw8hMiHbe_wiH_rF9fqv7eVD7K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589203131899-09kfclg145e9c79lkc73s6t0dso9qnhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

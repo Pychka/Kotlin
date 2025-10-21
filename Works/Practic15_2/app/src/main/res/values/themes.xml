@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Practic15_2" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <style name="mainButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/gray</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="android:layout_marginHorizontal">5dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/cute_kitty</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+    </style>
+
+    <style name="Theme.Practic15_2" parent="Base.Theme.Practic15_2" />
+</resources>

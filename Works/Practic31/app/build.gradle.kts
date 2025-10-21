@@ -17,10 +17,13 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+<<<<<<< HEAD
+=======
     buildFeatures{
         viewBinding = true
     }
 
+>>>>>>> 68cc9743e161e9fdb07a782e870a039dfd1eb843
     buildTypes {
         release {
             isMinifyEnabled = false

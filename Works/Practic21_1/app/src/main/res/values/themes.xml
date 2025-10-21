@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Practic211" parent="Theme.Material3.DayNight">
+
+    </style>
+
+    <style name="MyTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="background">@color/black</item>
+    </style>
+
+    <style name="Theme.Practic211" parent="Base.Theme.Practic211" />
+</resources>
