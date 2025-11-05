@@ -35,8 +35,14 @@
 
         <activity
             android:name=".GoogleMaps"
-            android:exported="false"
-            android:label="@string/title_activity_google_maps" />
+            android:exported="true"
+            android:label="@string/title_activity_google_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

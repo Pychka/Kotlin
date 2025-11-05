@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Practic33Bluetooth" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+    </style>
+
+    <style name="Theme.Practic33Bluetooth" parent="Base.Theme.Practic33Bluetooth" />
+</resources>

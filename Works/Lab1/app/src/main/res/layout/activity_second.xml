@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nav"
+        app:cornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5pt"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="90pt"
+        android:text="Right 50%"/>
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90pt"
+        android:layout_marginEnd="5pt"
+        android:text="Left 50%"/>
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Center" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
+        android:id="@+id/center_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/center"
+        android:layout_alignTop="@id/center"
+        android:layout_marginEnd="10dp"
+        android:text="Center_left" />
+
+    <com.google.android.material.button.MaterialButton
+        app:cornerRadius="10dp"
+        android:id="@+id/center_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/center"
+        android:layout_alignTop="@id/center"
+        android:layout_marginStart="10dp"
+        android:text="Center_right" />
+</RelativeLayout>
